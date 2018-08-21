@@ -1,0 +1,8 @@
+{
+  "name": "fedesoft-seguridad",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "7ca24350"
+}
