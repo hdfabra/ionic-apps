@@ -13,6 +13,7 @@ import { Items } from '../mocks/providers/items';
 import { Settings, User, Api } from '../providers';
 import { MyApp } from './app.component';
 import { LoginServiceProvider } from '../providers/login-service/login-service';
+import { MapPageModule } from '../pages/map/map.module';
 
 // The translate loader needs to know where to load i18n files
 // in Ionic's static asset pipeline.
@@ -57,7 +58,8 @@ export function provideSettings(storage: Storage) {
         }
       }
     }),
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    MapPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

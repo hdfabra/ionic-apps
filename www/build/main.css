@@ -25721,6 +25721,10 @@ page-item-detail .item-detail {
   position: absolute;
 }
 
+page-map #map {
+  height: 100%;
+}
+
 page-tutorial .toolbar-background {
   background: transparent;
   border-color: transparent;
