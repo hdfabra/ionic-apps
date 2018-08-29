@@ -1,1 +1,1 @@
-webw : npm run build && npm start
+webw : npm run build && npm run start:s
