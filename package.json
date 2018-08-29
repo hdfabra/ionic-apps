@@ -43,7 +43,9 @@
         "typescript": "3.0.1",
         "@ionic/lab": "1.0.8"
     },
-    "devDependencies": {},
+    "devDependencies": {
+
+    },
     "description": "An Ionic project",
     "engines": {
         "node": "v8.11.3",
