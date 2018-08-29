@@ -44,5 +44,9 @@
         "@ionic/lab": "1.0.8"
     },
     "devDependencies": {},
-    "description": "An Ionic project"
+    "description": "An Ionic project",
+    "engines": {
+        "node": "v8.11.3",
+        "npm": "5.6.0"
+    }
 }
